@@ -34,13 +34,6 @@ if weather == "rainy":
   print("Bring an umbrella")
 
 
-
-hungry = True
-
-if hungry:
-  print("feed me")
-
-
 a = 33
 b = 200
 
@@ -55,11 +48,11 @@ else:
 age = 19
 
 if age < 13:
-		print("Är ett barn")
+    print("Är ett barn")
 elif age > 12 and age <= 19:
-		print("Är en tonåring")
+    print("Är en tonåring")
 else: 
-		print("Är vuxen")
+    print("Är vuxen")
 
 
 #Övning 1
