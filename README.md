@@ -1,2 +1,3 @@
-# programmering-1
-programmering 1, Python
+# programmering-1-python
+
+Kursmaterial och lösningsförslag till uppgifter
