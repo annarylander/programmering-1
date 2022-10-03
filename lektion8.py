@@ -40,3 +40,48 @@ c=0
 for letter in city:
   c += 1
 print(c)
+
+
+#6
+lst1=["Phil", "Oz", "Seuss", "Dre"]
+lst2=[]
+
+for name in lst1:
+  lst2.append(f"dr {name}")
+
+print(lst2)
+
+#7.1
+for n in range(2, 21, 2):
+  print(n)
+
+#7.2
+for i in range(1, 21):
+  if i % 2 == 0:
+    print(i)
+
+
+#8
+lst1=[3, 7, 6, 8, 9, 11, 15, 25]
+lst2=[]
+
+for number in lst1:
+  lst2.append(number *2)
+
+print(lst2)
+
+
+#9
+lst1=[111, 32, -9, -45, -17, 9, 85, -10]
+lst2=[]
+
+for number in lst1:
+  if number > 0:
+    lst2.append(number)
+
+print(lst2)
+
+
+
+
+
