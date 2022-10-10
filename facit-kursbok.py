@@ -91,3 +91,29 @@ telefon_bok = {
 
 #3.22 
 print("Stina" in telefon_bok)
+
+
+#Upprepning och villkor
+
+#3.23
+#Saknar kolon efter 20 på rad tre
+
+#3.24
+range(3)
+
+#3.25
+l = [45, 78, 90, 34, 23]
+for numb in l:
+    print(numb)
+
+# #3.26
+for i in range(len(l)):
+    print(l[i])
+
+#3.27
+for i in range(0, len(l), 2):
+    print(l[i])
+
+#alternativ 2 
+for x in l[::2]:
+    print(x)
